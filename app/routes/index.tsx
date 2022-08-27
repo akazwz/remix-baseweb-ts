@@ -22,7 +22,7 @@ const Demo = () => {
 
 	const handleRemixClick = () => {
 		enqueue({
-				message: 'Remix Love Base Web',
+				message: 'Remix With Base Web',
 				startEnhancer: ({ size }) => <Check size={size} />
 			},
 			DURATION.short,
@@ -33,7 +33,7 @@ const Demo = () => {
 		<Centered>
 			<VStack>
 				<Button onClick={handleRemixClick}>Remix</Button>
-				<DisplayLarge>❤️</DisplayLarge>
+				<DisplayLarge>👋</DisplayLarge>
 				<DisplayLarge>Base Web</DisplayLarge>
 			</VStack>
 		</Centered>
